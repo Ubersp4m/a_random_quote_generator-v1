@@ -12,7 +12,7 @@ project 1 - A Random Quote Generator
 ***/
 //empty array
 let quotes = [];
-//empty object
+//quotes array filled with quote objects
 quotes =[ 
   {
     quote: "Make it so, number one",
