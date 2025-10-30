@@ -81,7 +81,7 @@ function printQuote(){
     let quote = getRandomQuote();
     let quotebox = document.getElementById("quote-box");
     let html = "";
-    for(prop in quote){
+    for(let prop in quote){
       if (prop === "quote"){
         html+=`<p class="${prop}">${quote[prop]}</p>`
       }
